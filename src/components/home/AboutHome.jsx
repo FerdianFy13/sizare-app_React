@@ -13,7 +13,7 @@ function TabContent({ title, content }) {
 }
 
 const AboutHome = () => {
-  const [activeTab, setActiveTab] = useState("Author");
+  const [activeTab, setActiveTab] = useState("author");
   const tabs = [
     {
       title: "Author",
@@ -41,7 +41,7 @@ const AboutHome = () => {
               About Us
             </p>
             <h1 className="display-5 mb-4">
-            The Future of Global Trends and Challenges
+              The Future of Global Trends and Challenges
             </h1>
             <p className="mb-4" style={{ textAlign: "justify" }}>
               his article examines the state of global trade in 2023, including
