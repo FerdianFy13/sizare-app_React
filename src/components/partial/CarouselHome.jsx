@@ -1,6 +1,6 @@
 import { Carousel, Container, Row, Col, Button } from "react-bootstrap";
-import Image1 from "./../../assets/img/partial/carousel-1.jpg";
-import Image2 from "./../../assets/img/partial/carousel-2.jpg";
+import Image1 from "./../../assets/img/partial/landing_page_1.jpg";
+import Image2 from "./../../assets/img/partial/landing_page_2.jpg";
 
 const CarouselHome = () => {
   const title = "Sizare";
