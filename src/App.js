@@ -5,6 +5,7 @@ import HomePages from "./pages/HomePages";
 import ContactPages from "./pages/ContactPages";
 import ArticlePages from "./pages/ArticlePages";
 import CategoryPages from "./pages/CategoryPages";
+import ErrorPage from "./pages/ErrorPage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/article" exact element={<ArticlePages />} />
           <Route path="/category" exact element={<CategoryPages />} />
           <Route path="/contact" exact element={<ContactPages />} />
+          <Route path="*" exact element={<ErrorPage />} />
         </Route>
       </Routes>
     </Router>

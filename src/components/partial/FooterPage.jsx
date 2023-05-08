@@ -1,4 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { Container, Row, Col } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 const FooterPage = () => {
   return (
@@ -31,6 +34,13 @@ const FooterPage = () => {
           </Row>
         </Container>
       </Container>
+      <a
+        href="#"
+        className="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+        style={{}}
+      >
+        <FontAwesomeIcon icon={faArrowUp} />
+      </a>
     </div>
   );
 };
