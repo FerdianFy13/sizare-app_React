@@ -11,10 +11,7 @@ const FooterPage = () => {
           <Row>
             <Col md={6} className="text-center text-md-start mb-3 mb-md-0">
               &copy;{" "}
-              <a
-                className="text-decoration-none text-dark fw-bolder"
-                href="http://sizare.test/"
-              >
+              <a className="text-decoration-none text-dark fw-bolder" href="/">
                 Sizare Website
               </a>
               , All Right Reserved. 2023.
