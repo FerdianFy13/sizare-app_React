@@ -50,6 +50,7 @@ const NavigationBar = () => {
               <Nav.Link
                 as={Link}
                 to="/article"
+                name="article"
                 className={activeLink === "article" ? "active" : ""}
                 onClick={handleLinkClick}
               >
@@ -58,6 +59,7 @@ const NavigationBar = () => {
               <Nav.Link
                 as={Link}
                 to="/category"
+                name="category"
                 className={activeLink === "category" ? "active" : ""}
                 onClick={handleLinkClick}
               >
